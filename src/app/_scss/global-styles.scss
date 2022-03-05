@@ -1,0 +1,21 @@
+
+$globalFont: "Roboto";
+
+html, body, app-root {
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+    font-size: 14px;
+    line-height: 18.9px;
+    font-family: $globalFont !important;
+    font-weight: normal !important;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 800px;
+    background: transparent;
+}

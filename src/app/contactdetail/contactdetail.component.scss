@@ -1,0 +1,14 @@
+@import '../_scss/app-globals.scss';
+
+app-contactdetail:host {
+    width: 100%;
+    padding: 10px;
+
+
+    #contentdetailScreen {
+        height:100%;
+        width: 100%;
+
+    }
+
+}

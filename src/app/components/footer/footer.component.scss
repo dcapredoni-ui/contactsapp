@@ -1,0 +1,22 @@
+@import '../../_scss/app-globals.scss';
+
+.footer {
+    overflow: hidden;
+    text-align: center;
+    flex: none;
+    margin: 0px;
+}
+
+.footer-div {
+    justify-content: center;
+    margin: 0 auto;
+    vertical-align: middle;
+    display: -webkit-flex;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    padding: 1em 0 0.5em;
+    width: 100%;
+    line-height: 1.25em;
+}

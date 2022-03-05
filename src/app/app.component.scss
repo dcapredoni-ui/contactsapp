@@ -1,0 +1,27 @@
+@import '_scss/app-globals.scss';
+
+#page-content-wrapper {
+    height: auto;
+    -webkit-overflow-scrolling: touch;
+    flex: auto;
+    margin:0;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex: 1 1 auto;
+    transition: top 0.3s;
+    
+}
+
+.full-height {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.screen {
+    padding: 0px;
+}
